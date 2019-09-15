@@ -7,9 +7,6 @@ Created on Fri Jun 28 09:18:04 2019
 @author: michaelcantow
 
 
-Instagram Shell Accounts: password is Debbie123! 
-    owen.kelly__ (michaelcantow@gmail.com)
-    lancemanion69__ (mit email)
 """
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -254,7 +251,7 @@ def convertSAstringToFloat(SAstr):
                 
    
     
-#bot = InstaBot('owen.kelly__', 'Debbie123!', 'carolinee08')
+#bot = InstaBot('owen.kelly__', 'hidingpassword!', 'carolinee08')
 #bot.signIn()
 #print(bot.getUserData())
 
@@ -278,7 +275,7 @@ toScrape = lines
 
 ###### Run Scrape #######
 scraped_data = []
-#InstaBot('owen.kelly__', 'Debbie123!', 'https://www.instagram.com/owen.kelly__/').signIn()
+#InstaBot('owen.kelly__', 'hidepassword,donttry to use my account!', 'https://www.instagram.com/owen.kelly__/').signIn()
 counter = 0
 prev_perc = 0
 for follower in toScrape:
@@ -299,4 +296,4 @@ with open('exportHere.txt', 'w') as fi:
 #print(convertSAstringToFloat('75.4K'))
 
 
-#https://www.youtube.com/watch?v=PqSXxrVNpLA here is youtube link for xpath, same guy had it for other shit
+#https://www.youtube.com/watch?v=PqSXxrVNpLA here is youtube link for xpath, explained well
