@@ -98,7 +98,7 @@ class twitter():
         '''
         good coding practice: writng a description under a method or function makes code much more readable and helps your future self
         
-        this method is just to initialize variables, so generally it doesn't require description
+        __init__ is a reserved method in python used to initialize variables
         '''
         
         chrome_path = r'/Users/michaelcantow/Documents/Michael-Jerrick-Code/chromedriver'
